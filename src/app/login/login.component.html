@@ -1,0 +1,13 @@
+<p>login works!</p>
+<div>
+    <form>
+        <label>Enter the Name</label>
+        <input type="txt" name="username" [(ngModel)]="name"><br>
+         
+        <label>Enter the Email</label>
+        <input type="txt" name="email" [(ngModel)]="email"><br>
+        
+        <input routerLink='/showdata' class="btn btn-primary" type="submit" (click)="login()" value="login">
+
+    </form>
+</div>

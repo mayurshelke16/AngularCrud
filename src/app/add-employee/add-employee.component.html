@@ -1,0 +1,109 @@
+<p>add-employee works!</p>
+<div class="bg">
+<div class="container">
+    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="card">
+                                <div class="card-header">Register</div>
+                                <div class="card-body">
+    
+                                    <form class="form-horizontal">
+                                        
+                                        <div class="form-group">
+                                            <label for="name" class="cols-sm-2 control-label">Your First Name </label>
+                                            <div class="cols-sm-10">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                                    <input type="text" class="form-control" name="name" [(ngModel)]="emp.name" placeholder="Enter your Name" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="name" class="cols-sm-2 control-label">Your Surame</label>
+                                            <div class="cols-sm-10">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                                    <input type="text" class="form-control" name="surname" [(ngModel)]="emp.surname" placeholder="Enter your Surname" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="address" class="cols-sm-2 control-label">Address</label>
+                                            <div class="cols-sm-10">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+                                                    <input type="text" class="form-control" name="address" id="address" [(ngModel)]="emp.address" placeholder="Enter your adddress" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="confirm" class="cols-sm-2 control-label">Gender</label>
+                                            <div class="cols-sm-10">
+                                                <div class="input-group">
+            
+                                                <input type="radio"  name="gender" value="Male" [(ngModel)]="emp.gender" />Male<br>
+                                                <input type="radio"  name="gender" value="Female" [(ngModel)]="emp.gender"/>Female<br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <div class="form-group">
+                                            <label for="age" class="cols-sm-2 control-label">Age</label>
+                                            <div class="cols-sm-10">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                                    <input type="text" class="form-control" name="age" [(ngModel)]="emp.age" placeholder="Enter your Age" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="email" class="cols-sm-2 control-label">Email</label>
+                                            <div class="cols-sm-10">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                                    <input type="text" class="form-control" name="email" [(ngModel)]="emp.email" placeholder="Enter your email" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                          <div class="form-group">
+                                            <label for="pincode" class="cols-sm-2 control-label"> Pincode</label>
+                                            <div class="cols-sm-10">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                                    <input type="text" class="form-control" name="pincode" [(ngModel)]="emp.pincode" placeholder="Enter your pincode" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                      
+                                          <div class="form-group">
+                                            <label for="DOB" class="cols-sm-2 control-label"> Date of Birth</label>
+                                            <div class="cols-sm-10">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                                    <input type="text" class="form-control" name="DOB" [(ngModel)]="emp.DOB" placeholder="Enter your DOB" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                          <div class="form-group">
+                                            <label for="DOJ" class="cols-sm-2 control-label"> Date of joining</label>
+                                            <div class="cols-sm-10">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                                    <input type="text" class="form-control" name="DOJ" [(ngModel)]="emp.DOJ" placeholder="Enter your DOJ" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                      
+
+                                        <div class="form-group ">
+                                            <input routerLink='/log' class="btn btn-primary" type="submit" (click)="m1()" value="Register">
+                                        </div>
+                                    
+                                    </form>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+    </div>
+    </div>
