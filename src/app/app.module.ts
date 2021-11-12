@@ -10,6 +10,7 @@ import { ShowdetailComponent } from './showdetail/showdetail.component';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { DeleteemployeeComponent } from './deleteemployee/deleteemployee.component';
+import { SortEmployeeComponent } from './sort-employee/sort-employee.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { DeleteemployeeComponent } from './deleteemployee/deleteemployee.compone
     LoginComponent,
     AddEmployeeComponent,
     ShowdetailComponent,
-    DeleteemployeeComponent   
+    DeleteemployeeComponent,
+    SortEmployeeComponent   
     
   ],
   imports: [

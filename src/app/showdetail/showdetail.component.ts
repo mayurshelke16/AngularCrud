@@ -46,11 +46,5 @@ export class ShowdetailComponent implements OnInit {
     });
    }
 
-   sortdo()
-   {
-     this.EmpService.sortByDOB().subscribe(rs=>{
-
-      console.log(rs);
-       this.emp=rs;
-    });   }
+  
 }

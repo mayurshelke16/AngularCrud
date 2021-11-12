@@ -32,7 +32,7 @@ allDataget()
 
 sortByDOB()
 {
-return this.http.get<Employee[]>(this.url+'/sordob');
+return this.http.get<Employee[]>(this.url+'/sortdob');
 }
 
 editdata(id)
